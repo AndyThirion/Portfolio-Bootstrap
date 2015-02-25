@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<body>
+	
+	<div class="container" id="main">
+		
+
+		<div class="navbar navbar-fixed-top">
+			<div class="container">
+
+				<!-- Responsive Nav Menu Button -->
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+
+				</button>
+
+				
+				<!-- Brand Image -->
+				<a href="/" class="navbar-brand">
+					<img src="images/logo.png" alt="Site Logo">
+				</a>
+
+				<!-- Collapse Navbar -->
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Home</a>
+						</li>
+
+						<!-- Services Dropdown -->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Web Development</a>
+								</li>
+
+								<li>
+									<a href="#">Bootstrap</a>
+								</li>
+
+								<li>
+									<a href="#">AngularJS </a>
+								</li>
+
+								<li class="divider"></li>
+
+								<li class="dropdown-header">For Employers</li>
+
+								<li>
+									<a href="#">My Resume</a>
+								</li>
+
+								<li>
+									<a href="#">My Portfolio</a>
+								</li>
+
+							</ul> <!-- end dropdown-menu -->
+						</li> <!-- end services dropdown -->
+					</ul> <!-- end nav navbar-nav -->
+				
+					<!-- Search Navbar -->
+					<form class="navbar-form pull-left">
+						 <input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+						 <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+					</form> <!-- end navbar-form -->
+
+					<!-- My Account Navbar -->
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown">
+							
+							<!-- Dropdown Toggle -->
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								<span class="glyphicon glyphicon-user"></span>My Account <strong class="caret"></strong>
+							</a>
+
+							<ul class="dropdown-menu">
+								
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+								</li>
+								
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+								</li>
+								
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+								</li>
+								
+								<li class="divider"></li>
+								
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-off"></span> Log Out</a>
+								</li>
+
+							</ul> <!-- end dropdown-menu -->
+						</li> <!-- end dropdown -->
+					</ul> <!-- end nav pull-right -->
+
+				</div> <!-- end nav-collapse -->
+
+			</div> <!-- end container -->
+		</div> <!-- End Navbar -->
+
+
+
+		<!-- Carousel -->
+		<div class="carousel slide" id="myCarousel">
+
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+			</ol> <!-- end indicators -->
+			
+			<!-- Carousel Wrapper for Slides -->
+			<div class="carousel-inner">
+				<div class="item active" id="slide1">
+					<div class="carousel-caption">
+						<h4>Bootstrap 3</h4>
+						<p>Quickly build responsive websites using Bootstrap 3</p>
+					</div> <!-- end carousel-caption -->
+				</div> <!-- end item -->
+
+				<div class="item" id="slide2">
+					<div class="carousel-caption">
+						<h4>AngularJS</h4>
+						<p>Rapidly prototype new ideas using the power of AngularJS</p>
+					</div> <!-- end carousel-caption -->
+				</div> <!-- end item -->
+
+				<div class="item" id="slide3">
+					<div class="carousel-caption">
+						<h4>NodeJS &amp; ExpressJS</h4>
+						<p>Back-end power and performance using NodeJS and ExpressJS</p>
+					</div> <!-- end carousel-caption -->
+				</div> <!-- end item -->
+
+			</div> <!-- end carousel-inner -->
+
+			<!-- Controls -->
+			<a href="#myCarousel" class="left carousel-control" data-slide="prev"><span class="icon-prev"></span></a>
+
+			<a href="#myCarousel" class="right carousel-control" data-slide="next"><span class="icon-next"></span></a>
+
+		</div> <!-- End Carousel -->
+
+
+		<div class="row" id="bigCallout">
+
+			<div class="col-12">
+
+				<div class="alert alert-success alert-block fade in" id="successAlert">
+					<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+					<h4>Success!</h4>
+					<p>You just made this element display by using jQuery. Click the "X" to close this bad boy </p>
+				</div> <!-- end alert -->
+
+				<!-- Visible only on small devices -->
+				<div class="well well-small visible-sm">
+					<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call</a>
+				</div> <!-- end well-small -->
+
+				<div class="well">
+					<div class="page-header">
+						<h1>A Fancy Header <small>A subheader for extra awesome!</small></h1>
+					</div> <!-- end page-header -->
+
+					<p class="lead">Some solid leading copy will help get your users engaged. Use this area to come up with something real nice... Know what I'm saying?</p>
+
+					<a href="" class="btn btn-large btn-primary" id="alertMe">Click a nice big button</a>
+					<a href="" class="btn btn-large btn-link">or a secondary link</a>
+				</div> <!-- end well -->
+			</div> <!-- end col-12 -->
+
+		</div> <!-- End Big Callout -->
+
+
+		<div class="row" id="featuresHeading">
+			<div class="col-12">
+				<h2>More Features</h2>
+				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero odio nostrum soluta doloremque, mollitia harum et cumque vel debitis, magnam ex quidem rerum sed illum nulla veniam unde odit pariatur.</p>
+			</div> <!-- end col-12 -->
+		</div> <!-- End Features Heading -->
+
+
+		<div class="row" id="features">
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Markup with HTML5</h3> <!-- end panel-title -->
+					</div> <!-- end panel-heading -->
+					<img src="images/badge_html5.jpg" alt="HTML5" class="img-circle">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sequi, ducimus. Quisquam atque saepe nisi exercitationem, dolorem iure labore eligendi ducimus animi nihil, ex accusamus minima? Laudantium illum, aperiam officia.</p>
+					<a href="" target="_blank" class="btn btn-warning btn-block">Coding with HTML5</a>
+				</div> <!-- end panel -->
+			</div> <!-- end feature -->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Style with CSS3</h3> <!-- end panel-title -->
+					</div> <!-- end panel-heading -->
+					<img src="images/badge_css3.jpg" alt="CSS3" class="img-circle">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sequi, ducimus. Quisquam atque saepe nisi exercitationem, dolorem iure labore eligendi ducimus animi nihil, ex accusamus minima? Laudantium illum, aperiam officia.</p>
+					<a href="" target="_blank" class="btn btn-danger btn-block">Style it up with CSS3</a>
+				</div> <!-- end panel -->
+			</div> <!-- end feature -->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Framework by Bootstrap 3</h3> <!-- end panel-title -->
+					</div> <!-- end panel-heading -->
+					<img src="images/badge_bootstrap.jpg" alt="Bootstrap" class="img-circle">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sequi, ducimus. Quisquam atque saepe nisi exercitationem, dolorem iure labore eligendi ducimus animi nihil, ex accusamus minima? Laudantium illum, aperiam officia.</p>
+					<a href="" target="_blank" class="btn btn-info btn-block">Get started with Bootstrap 3</a>
+				</div> <!-- end panel -->
+			</div> <!-- end feature -->
+
+		</div> <!-- End Features -->
+
+
+		<div class="row" id="moreInfo">
+			<div class="col-sm-6">
+				<h3>Neat Tabbable Content</h3>
+				<div class="tabbable">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+					</ul>
+				</div> <!-- end tabbable -->
+			</div> <!-- end col-6 -->
+		</div> <!-- End More Info -->
+
+
+		<div class="row" id="moreCourses">
+			
+		</div> <!-- End More Courses -->
+
+
+	</div>	<!-- End Container -->
+
+
+
+
+
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+
